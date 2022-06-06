@@ -11,7 +11,7 @@ I am 21 years old. My goal is to acquire skills and knowledge. I like to study a
 # Skills
 - HTML
 - CSS
-- C#
+- C# 
 - SQL
 # Code 
 ```javascript
