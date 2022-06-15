@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV as HTML</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__image">
+                <img src="images/ava.jpg" alt="photo" />
+            </div>
+            <div class="header__text">
+                <h1 class="header__title">Denis Djayni</h1>
+                <p class="header__proffesion">Student</p>
+            </div>
+        </header>
+
+        <main>
+            <h2>Contact</h2>
+            <ul>
+                <li><b>Phone:</b> <a href="tel:375298660886" target="_blank">+375298660886</a></li>
+                <li><b>GitHub:</b> <a href="https://github.com/Dzenia" target="_blank">Dzenia</a></li>
+                <li><b>E-mail:</b> <a href="mailto:dendjayni@gmail.com" target="_blank">dendjayni@gmail.com</a></li>
+            </ul>
+
+            <h2>About me</h2>
+            <p>I am 21 years old. My goal is to acquire skills and knowledge. I like to study and learn something new in practice. My strengths are: adaptation, the desire to learn new things, learnability.
+
+            </p>
+            
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C#</li>
+                <li>Figma</li>
+                <li>SQL</li>
+            </ul>
+
+            <h2>Code</h2>
+            <pre><code>
+                function nbYear(p0, percent, aug, p) {
+                    // your code 
+                  var i = 0;
+                  while (true){
+                    if (p0 >= p) {return i;}
+                    p0=p0*(1+percent/100) + aug; i++;
+                  }
+                }
+                nbYear(1000, 2, 50, 1200)
+            </code></pre>
+
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian - native speaker</li>
+                <li>English - ~A2 - B1 </li>
+            </ul>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; 2022, Denis Djayni</p>
+            <a class="footer__github-link" href="https://github.com/Dzenia" target="_blank">Github</a>
+            <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+                <img src="images/rs_school_js.svg" width="86" height="32" alt="RS School">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
